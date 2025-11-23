@@ -53,6 +53,7 @@ We successfully identified **8 distinct configurations** that exceeded the 70% t
 | `b5oro9oy` | ResNet18 | SAM | 96 | **70.40%** | 161.1 |
 
 *Table 1: 8 Configurations achieving >70% accuracy on CIFAR-100.*
+<img width="3160" height="1660" alt="W B Chart 11_23_2025, 11_49_02 PM" src="https://github.com/user-attachments/assets/1c2d87f8-d199-4e03-a480-0bfb65d31f2b" />
 
 *Figure 1: Parallel coordinates plot from WandB showing the impact of Batch Size and Optimizer on Accuracy.*
 
@@ -76,7 +77,6 @@ The model demonstrated steady convergence, with the SAM optimizer effectively sm
 
 By achieving **80.05%**, this run satisfies the criteria for both 79% and 80% accuracy.
 
-*Figure 2: Training metrics showing the jump in accuracy at scheduler milestones.*
 
 ---
 
